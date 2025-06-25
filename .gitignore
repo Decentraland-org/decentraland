@@ -1,0 +1,483 @@
+# Decentraland Offline Setup Assistant - .gitignore
+
+# ==============================================================================
+# ⚠️  CRITICAL: SECURITY AND CREDENTIALS
+# ==============================================================================
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.env
+.env*
+secrets.json
+api_keys.txt
+tokens.txt
+*.key
+*.pem
+*.p12
+*.crt
+
+# ==============================================================================
+# 🎮 GAME DEVELOPMENT FILES
+# ==============================================================================
+
+# Unity (if using Unity engine)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Unity specifics
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.opendb
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+
+# ==============================================================================
+# 📦 BINARY AND EXECUTABLE FILES
+# ==============================================================================
+
+# Compiled binaries
+*.exe
+*.app
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.msi
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+
+# Native libraries
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Executables
+bin/
+dist/
+build/
+out/
+target/
+
+# ==============================================================================
+# 🖼️  ASSET AND MEDIA FILES (LARGE FILES)
+# ==============================================================================
+
+# Large media files (should use Git LFS)
+*.fbx
+*.blend
+*.max
+*.maya
+*.mb
+*.ma
+*.3ds
+
+# High-resolution textures
+*_4K.*
+*_8K.*
+*_16K.*
+*.exr
+*.hdr
+
+# Audio files
+*.wav
+*.aiff
+*.flac
+*.ogg
+*.mp3
+*.m4a
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ==============================================================================
+# 🔧 DEVELOPMENT TOOLS AND IDEs
+# ==============================================================================
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.tmp
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==============================================================================
+# 🖥️  OPERATING SYSTEM FILES
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# 📄 LOG AND TEMPORARY FILES
+# ==============================================================================
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.cache/
+
+# ==============================================================================
+# 📊 PACKAGE MANAGERS AND DEPENDENCIES
+# ==============================================================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+venv/
+ENV/
+env/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+lib/bundler/man/
+
+# PHP
+vendor/
+composer.phar
+.env.local
+.env.*.local
+
+# ==============================================================================
+# 🔄 VERSION CONTROL AND BACKUP
+# ==============================================================================
+
+# Git
+*.orig
+*.rej
+.gitattributes
+.git/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+.#*
+
+# Patch files
+*.patch
+*.diff
+
+# ==============================================================================
+# ☁️  CLOUD AND DEPLOYMENT
+# ==============================================================================
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# ==============================================================================
+# 📱 MOBILE DEVELOPMENT
+# ==============================================================================
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+out/
+local.properties
+proguard/
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserdata
+
+# ==============================================================================
+# 🌐 WEB DEVELOPMENT
+# ==============================================================================
+
+# Static site generators
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.next/
+.nuxt/
+dist/
+.output/
+
+# Browser testing
+.browserslistrc
+
+# ==============================================================================
+# 🧪 TESTING AND DOCUMENTATION
+# ==============================================================================
+
+# Test results
+test-results/
+coverage/
+*.lcov
+.nyc_output/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+.sphinx/
+
+# ==============================================================================
+# 🎯 PROJECT-SPECIFIC EXCLUSIONS
+# ==============================================================================
+
+# Decentraland specific
+cached_assets/
+offline_content/
+user_data/
+saves/
+settings.json
+preferences.json
+
+# Asset cache directories
+Assets/Cache/
+Assets/StreamingAssets/Cache/
+Assets/Downloaded/
+
+# User-generated content
+UserContent/
+CustomScenes/
+Mods/
+
+# Performance and profiling
+*.prof
+profiler_logs/
+benchmark_results/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Config files with sensitive data
+config.json
+settings.ini
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================================================================
+# 📚 DOCUMENTATION EXCEPTIONS (KEEP THESE FILES)
+# ==============================================================================
+
+# Keep important documentation
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!CHANGELOG.md
+!docs/README.md
+!.github/
+
+# Keep example files
+!example.config.json
+!sample.env
+!template.*
+
+# ==============================================================================
+# 📝 NOTES AND COMMENTS
+# ==============================================================================
+
+# This .gitignore is designed for the Decentraland Offline Setup Assistant
+# It excludes sensitive files, build artifacts, and large assets while
+# preserving important documentation and configuration templates.
+#
+# Remember to:
+# 1. Use Git LFS for large binary assets
+# 2. Keep credentials in separate, secure locations
+# 3. Review this file periodically as the project evolves
+# 4. Add project-specific patterns as needed
+#
+# For questions about this .gitignore file, see CONTRIBUTING.md .internal/GITHUB_CREDENTIALS.md
+.internal/
