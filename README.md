@@ -41,19 +41,6 @@
 - 🎵 **Full Audio Experience**: Immersive soundscapes and music included
 - 🛠 **Developer Tools**: Scene testing and asset preview capabilities
 
-## 📸 Screenshots & Media
-
-### Offline Gameplay
-![Decentraland Offline Scene](assets/decentraland-offline-scene.png)
-*Explore Genesis City and custom scenes without connecting to blockchain*
-
-![Avatar Customization](assets/avatar-customization.png)
-*Full avatar editor with thousands of wearables and accessories*
-
-### Setup Process
-![Setup Assistant](assets/setup-assistant.png)
-*Simple 3-step installation process with automated configuration*
-
 ## 🎮 How to Use
 
 ### Quick Start
