@@ -5,8 +5,6 @@
 [![Platform Windows](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey.svg)](https://decentraland-org.github.io/.github/)
 [![Discord Community](https://img.shields.io/badge/Discord-Join%20Community-5865F2.svg)](https://discord.gg/decentraland)
 
-> **Experience the full Decentraland metaverse offline - no wallet, no browser, no internet required!**
-
 ![Decentraland Offline Banner](https://builtin.com/sites/www.builtin.com/files/2023-01/decentraland-nft-non-fungible-token-what-is-decentraland.png)
 
 ## 🎮 Download & Play
@@ -137,5 +135,5 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-Made with ❤️ for the Decentraland Community | Bringing the Metaverse Offline
+Made with ❤️ for the Decentraland Community
 </p>
