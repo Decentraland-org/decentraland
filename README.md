@@ -134,12 +134,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 - 🎮 [Marketplace](https://market.decentraland.org)
 - 📊 [Analytics](https://dcl-metrics.com)
 
-## ⚠️ Important Notice
-
-This is an **unofficial offline setup assistant** for educational and accessibility purposes. It enables offline access to Decentraland's virtual world without requiring cryptocurrency wallets or internet connectivity. All NFTs and assets are cached locally for demonstration purposes.
-
-For the full online experience with trading, social features, and real NFT ownership, visit [decentraland.org](https://decentraland.org).
-
 ---
 
 <p align="center">
