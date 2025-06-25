@@ -90,7 +90,7 @@
 
 ## 🔍 SEO Keywords
 
-**Primary Keywords**: decentraland offline, decentraland desktop client, metaverse offline experience, virtual world no internet, blockchain game offline
+**Primary Keywords**: decentraland offline, decentraland desktop client, metaverse offline experience, virtual world no internet, blockchain game offline, decentraland
 
 **Secondary Keywords**: decentraland setup assistant, NFT viewer offline, avatar customization offline, virtual reality offline, web3 game desktop
 
